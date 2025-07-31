@@ -8,3 +8,13 @@ wheels/
 
 # Virtual environments
 .venv
+
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore downloads folder
+downloads/
+
+# Ignore models folder
+models/
