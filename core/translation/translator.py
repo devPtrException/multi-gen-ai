@@ -79,7 +79,7 @@ def get_languages():
 
 def translator_interface(text, source_lang, target_lang):
     if not text.strip():
-        return "Please enter some text to translate."
+        return "Please enter some text to translate"
 
     return translate_by_chunks(
         text, source_lang, target_lang, translator_pipeline, tokenizer
