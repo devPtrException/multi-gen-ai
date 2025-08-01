@@ -15,6 +15,7 @@ st.set_page_config(
     layout="centered",
 )
 
+
 with st.sidebar:
     side_menu_selector = option_menu(
         "AI Menu",
